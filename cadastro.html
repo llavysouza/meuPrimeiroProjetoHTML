@@ -7,7 +7,7 @@
   <title>Formulário de Login</title>
 </head>
 <body>
-  <form method="get">
+  <form action="./cadastramento.html" method="get">
     <h1>Cadastro de Novos Usuários</h1>
         <form method="post" action="#">
             <label for="nomePessoa">Nome:</label><br>
@@ -31,12 +31,10 @@
                 <option value="opcao4">Administrador</option>
             </select><br><br>
             <p>
-              <a href='./cadastramento.html'></a>
-                <button>Cadastrar</button>
+              <button type="submit">Cadastrar</button>
             </p>
             <p>
-              <a href='./index.html'></a>
-              <button type="submit">Voltar</button>
+              <button type="button" onclick="index.html">Voltar</button>
             </p>
         </form>
   
